@@ -1,0 +1,29 @@
+body {
+    background-color: #2C3338 !important;
+}
+
+.custom-card {
+    top: 150px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 5px 5px 20px rgba(190, 190, 190, 0.5);
+}
+.btn-custom {
+    background: #FF5483 !important;
+    border-color: #FF5483 !important;
+}
+.btn-custom:hover {
+    background: #D31449 !important;
+    border-color: #D31449 !important;
+}
+.btn-custom:focus {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;}

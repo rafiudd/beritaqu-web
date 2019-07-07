@@ -1,0 +1,22 @@
+body {
+    background: #F1F1F1 !important;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.table-responsive{
+    padding: 30px 30px 30px 30px;
+    background: white !important;
+}
+.top-custom{
+    margin-top: 60px !important;
+}
+.top-custom-2{
+    margin-top: 10px !important;
+}
+a {
+    color: #FF5483 !important;
+}
+.logout {
+    margin-top: 50px !important;
+    float: right !important;
+}

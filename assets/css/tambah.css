@@ -1,0 +1,41 @@
+body {
+    background: #F1F1F1 !important;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.table-responsive{
+    padding: 30px 30px 30px 30px;
+    background: white !important;
+}
+.top-custom{
+    margin-top: 60px !important;
+}
+.top-custom-2{
+    margin-top: 10px !important;
+}
+a {
+    color: #FF5483 !important;
+}
+input {
+    width: 100% !important;
+}
+.btn-custom {
+    background: #FF5483 !important;
+    border-color: #FF5483 !important;
+}
+.btn-custom:hover {
+    background: #D31449 !important;
+    border-color: #D31449 !important;
+}
+.btn-custom:focus {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;}

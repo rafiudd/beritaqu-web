@@ -1,0 +1,22 @@
+#red{ 
+    border-top: solid #A44B4B;
+    border-width: 15px;
+    background: #2E2E2E; 
+    height:20%;
+    width:100%; 
+    height:100px; 
+    margin:0;
+    margin-top: 150px;
+  }
+  
+  .text {
+    color: white;
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #page-footer {
+    display: none !important;
+  }
