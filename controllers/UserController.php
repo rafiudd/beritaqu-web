@@ -40,7 +40,7 @@
                 $_SESSION['username'] = $username;
                 $_SESSION['status'] = "login";
                 echo '<script>
-                alert("$cek,Login Berhasil");
+                alert("Login Berhasil");
                 location="/portalBeritaqu/?aksi=dashboard"
                 </script>';
             }else{

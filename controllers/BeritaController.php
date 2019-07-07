@@ -27,10 +27,9 @@ class BeritaController {
         } else {
             //ada parameter id yang dikirim, tampilkan detail dari salah satu data yang dipilih
 
-
-            echo '<script language="javascript">';
-            echo 'alert("message successfully sent")';
-            echo '</script>';
+            // echo '<script language="javascript">';
+            // echo 'alert("message successfully sent")';
+            // echo '</script>';
             
             $rs = $this->model->getDataById($_GET['i']);
             require_once("views/layouts/berita/detail.php");
@@ -39,19 +38,17 @@ class BeritaController {
 
 	function showData() {
 		if(!isset($_GET['i'])) {
-            echo '<script language="javascript">';
-            echo 'alert("message sent")';
-            echo '</script>';
+            // echo '<script language="javascript">';
+            // echo 'alert("message sent")';
+            // echo '</script>';
 			//jika tidak ada parameter id yang dikirim, maka akan menampilkan semua data yang ada
 			$rs = $this->model->getData();
             require_once("views/layouts/berita/index.php");
         } else {
             //ada parameter id yang dikirim, tampilkan detail dari salah satu data yang dipilih
-
-
-            echo '<script language="javascript">';
-            echo 'alert("message successfully sent")';
-            echo '</script>';
+            // echo '<script language="javascript">';
+            // echo 'alert("message successfully sent")';
+            // echo '</script>';
             
             $rs = $this->model->getDataById($_GET['i']);
             require_once("views/layouts/berita/detail.php");
@@ -59,19 +56,18 @@ class BeritaController {
     }
     function showDataDashboard() {
 		if(!isset($_GET['i'])) {
-            echo '<script language="javascript">';
-            echo 'alert("message sent")';
-            echo '</script>';
-			//jika tidak ada parameter id yang dikirim, maka akan menampilkan semua data yang ada
+            // echo '<script language="javascript">';
+            // echo 'alert("message sent")';
+            // echo '</script>';
+            //jika tidak ada parameter id yang dikirim, maka akan menampilkan semua data yang ada
+            
             $rs = $this->model->getData();
             require_once("views/layouts/dashboard.php");
         } else {
             //ada parameter id yang dikirim, tampilkan detail dari salah satu data yang dipilih
-
-
-            echo '<script language="javascript">';
-            echo 'alert("message successfully sent")';
-            echo '</script>';
+            // echo '<script language="javascript">';
+            // echo 'alert("message successfully sent")';
+            // echo '</script>';
             
             $rs = $this->model->getDataById($_GET['i']);
             require_once("views/layouts/berita/detail.php");
@@ -101,8 +97,8 @@ class BeritaController {
             // Proses simpan ke Database
             $query = "INSERT INTO berita (judul_berita,gambar_berita,deskripsi_berita) VALUES('".$judul_berita."', '".$renameGambar."', '".$deskripsi_berita."')";
             $sql = mysqli_query($koneksi, $query); // Eksekusi/ Jalankan query dari variabel $query
-            echo 'cek';
-            echo $query;
+            // echo 'cek';
+            // echo $query;
             if($sql){ // Cek jika proses simpan ke database sukses atau tidak
                 // Jika Sukses, Lakukan :
                 header("location: /portalBeritaqu/?aksi=dashboard"); // Redirect ke halaman index.php            
