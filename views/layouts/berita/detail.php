@@ -17,6 +17,12 @@
 		.gambar {
 			max-width:1000px;
 		}
+		@media (max-width: 700px) {
+			.gambar {
+				/* max-width:400px; */
+				width:100%;
+			}		
+		}
 	</style>   
 	</head>
 	<body>
