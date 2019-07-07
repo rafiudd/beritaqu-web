@@ -12,7 +12,7 @@
 <body>
     <div class="row mx-auto">
         <div class="col-4"></div>
-        <div class="card col-xl-4 col-4 col-xs-4 mx-0 custom-card">
+        <div class="card col-xl-4 col-10 col-sm-4 mx-auto custom-card">
         <form method="POST" action="/portalBeritaqu/?aksi=cekLogin">
                 <div class="form-group">
                     <label for="nama" class="control-label">Username</label>

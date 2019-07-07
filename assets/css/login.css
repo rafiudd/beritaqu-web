@@ -27,3 +27,10 @@ textarea:focus {
     outline: none !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;}
+
+/* @media (min-width: 340px) {
+    .custom-card {
+        display: none !important;
+        width: 100% !important;
+    }
+} */

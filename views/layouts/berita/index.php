@@ -45,7 +45,7 @@
                         $num_char = 50;
 						$text = $list['deskripsi_berita'];               
                 ?>
-                    <div class="col-xs-12 col-sm-4 col-4 col-md-4 col-xl-4">
+                    <div class="col-xs-12 col-sm-4">
                         <div class="card">
                             <a class="img-card" href="?aksi=berita&i=<?php echo $list['id'] ?>">
                             <img src="assets/img/<?php echo $list['gambar_berita'] ?>" alt="" srcset="">
